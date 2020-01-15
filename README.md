@@ -1,5 +1,4 @@
-# username
-All code for the [username] school project.
+# The Dawn Of Dystinxion scripts
 Name and description of every csharp script used in The Dawn Of Dystinxion by [username] © 2020.
 Please click on a script to open it.
 

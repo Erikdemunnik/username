@@ -1,47 +1,48 @@
 # The Dawn Of Dystinxion scripts
-Name and description of every csharp script used in The Dawn Of Dystinxion by [username] © 2020.
-Please click on a script to open it.
+#### Name and description of every csharp script used in The Dawn Of Dystinxion by [username] © 2020.
 
-BleacherPersonAnim.cs     = Animation script for cheering crowd
+(Please click on a script to open it.)
 
-CamHorizonTracker.cs      = Camera lookAt tracks a distant fixed point on the Z axis instead of an infinite horizon point.
+**BleacherPersonAnim.cs**     Animation script for cheering crowd.
 
-CameraLock.cs             = Camera pivot tracks a center point between the two active players.
+**CamHorizonTracker.cs**      Camera lookAt tracks a distant fixed point on the Z axis instead of an infinite horizon point.
 
-CollisionDamage.cs        = Checks damage between collider and players, their character class and team. Then applies a damage value and sends it to the healthAndScore script.
+**CameraLock.cs**             Camera pivot tracks a center point between the two active players.
 
-DroneController.cs        = Drone flying script with smoothing for realistic hover flight. Tracks the objective Octa.
+**CollisionDamage.cs**        Checks damage between collider and players, their character class and team. Then applies a damage value and sends it to the healthAndScore script.
 
-EmissionIntensity.cs      = A script that changes the intensity of the Emission (glow) of a material by a simple sine wave function.
+**DroneController.cs**        Drone flying script with smoothing for realistic hover flight. Tracks the objective Octa.
 
-HealthAndScore.cs         = Controls the health of every character to be used in the UI, and the score when the objective is held. Will also end the game when max points is achieved.
+**EmissionIntensity.cs**      A script that changes the intensity of the Emission (glow) of a material by a simple sine wave function.
 
-HudText.cs                = Hud text that appears when Battle scene is loaded. Had a countdown until game starts and shows game controls.
+**HealthAndScore.cs**         Controls the health of every character to be used in the UI, and the score when the objective is held. Will also end the game when max points is achieved.
 
-LampFlicker.cs            = Changes light intensity by a simple sine wave function.
+**HudText.cs**                Hud text that appears when Battle scene is loaded. Had a countdown until game starts and shows game controls.
 
-MainMenu.cs               = Changes scene on button press.
+**LampFlicker.cs**            Changes light intensity by a simple sine wave function.
 
-ObjectiveGrab.cs          = (Obsolete) Pickup script for the objective Octa.
+**MainMenu.cs**               Changes scene on button press.
 
-ObjectiveOcta.cs          = Rotation, hover and glow effects for the objective Octa.
+**ObjectiveGrab.cs**          (Obsolete) Pickup script for the objective Octa.
 
-ObjectiveRelease.cs       = Objective Octa is held in the air before game start and then drops.
+**ObjectiveOcta.cs**          Rotation, hover and glow effects for the objective Octa.
 
-PlatformHover.cs          = (Obsolete) Physical up and down movement of platform. Player often clips into the platform because of poor physics simulation.
+**ObjectiveRelease.cs**       Objective Octa is held in the air before game start and then drops.
 
-PlayerSpawn.cs            = Controls the generation of player prefab. After a set time, the player prefab will be instantiated 6 times and character classes and teams will be assigned in the process.
+**PlatformHover.cs**          (Obsolete) Physical up and down movement of platform. Player often clips into the platform because of poor physics simulation.
 
-Playermovement.cs         = Controls the player prefab. Has functions for player1, player2 and AI with their own movement controls. PlayerSpawn script assigns these when player is spawned.
+**PlayerSpawn.cs**            Controls the generation of player prefab. After a set time, the player prefab will be instantiated 6 times and character classes and teams will be assigned in the process.
 
-Propellor.cs              = propellor rotation script for the drone prefab.
+**Playermovement.cs**         Controls the player prefab. Has functions for player1, player2 and AI with their own movement controls. PlayerSpawn script assigns these when player is spawned.
 
-RotateY.cs                = Rotation script for the objective Octa. Makes it slowly rotate around the Y axis like a top.
+**Propellor.cs**              Propellor rotation script for the drone prefab.
 
-ScrollingTexture.cs       = Texture of hologram crowd model translates across the UV. Gives it a holographic scan look.
+**RotateY.cs**                Rotation script for the objective Octa. Makes it slowly rotate around the Y axis like a top.
 
-SpotlightFocus.cs         = The currently selected players of both teams are highlighted with an arrow and player tag above their heads. (Previously a spotlight)
+**ScrollingTexture.cs**       Texture of hologram crowd model translates across the UV. Gives it a holographic scan look.
 
-TextFade.cs               = Changes transparency intensity of text by a simple sine wave function.
+**SpotlightFocus.cs**         The currently selected players of both teams are highlighted with an arrow and player tag above their heads. (Previously a spotlight)
 
-killPlane.cs              = When a player falls off the map they will land into the killplane trigger and receive lethal damage.
+**TextFade.cs**               Changes transparency intensity of text by a simple sine wave function.
+
+**killPlane.cs**              When a player falls off the map they will land into the killplane trigger and receive lethal damage.

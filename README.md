@@ -1,7 +1,7 @@
 # username
 All code for the [username] school project.
-
 Name and description of every csharp script used in The Dawn Of Dystinxion by [username] © 2020.
+Please click on a script to open it.
 
 BleacherPersonAnim.cs     = Animation script for cheering crowd
 

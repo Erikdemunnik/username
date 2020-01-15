@@ -1,5 +1,5 @@
 # The Dawn Of Dystinxion scripts
-#### Name and description of every csharp script used in The Dawn Of Dystinxion by [username] © 2020.
+### Name and description of every csharp script used in *The Dawn Of Dystinxion* game by [username] © 2020.
 
 (Please click on a script to open it.)
 
